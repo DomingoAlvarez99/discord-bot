@@ -8,5 +8,3 @@ docker build --rm ^
     -t discord_bot .
 
 docker create --rm --name temp_discord_bot discord_bot
-
-docker rm temp_discord_bot
