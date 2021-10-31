@@ -29,7 +29,8 @@ public final class Application {
         Options options = new Options();
         Option cfOption = Option.builder()
                                 .longOpt(CF_LONG_NAME)
-                                .hasArg(true)
+                                .hasArg()
+                                .required()
                                 .desc(CF_DESCRIPTION)
                                 .build();
         options.addOption(cfOption);
