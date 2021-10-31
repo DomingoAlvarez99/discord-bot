@@ -1,6 +1,9 @@
 # Discord bot
 > Este proyecto es un ejemplo de la integración de la librería ([JDA](https://github.com/DV8FromTheWorld/JDA)). Permite lanzar comandos, enviar mensajes a través de un canal...
 
+## Requisitos
+`Docker`
+
 ## Configuración y ejecución
 1. Crear y configurar un bot
 2. Añadir el bot a un servidor
